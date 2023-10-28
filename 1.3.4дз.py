@@ -1,0 +1,9 @@
+a=['Home','car','human','key','pepsi','baby','pop','ikea','quen','house']
+a.pop(2)
+a.pop(8)
+a.append('kill')
+a.append('rabbit')
+a.append('horse')
+a.append('monkey')
+a.append('lol')
+print(a)

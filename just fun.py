@@ -1,0 +1,45 @@
+import turtle
+import colorsys
+x=turtle.Turtle()
+y=turtle.Turtle()
+z=turtle.Turtle()
+q=turtle.Turtle()
+y.speed(100)
+x.speed(100)
+z.speed(100)
+q.speed(100)
+x.color('red')
+y.color('blue')
+z.color('yellow')
+q.color('green')
+x.penup()
+y.penup()
+z.penup()
+q.penup()
+x.goto(0,0)
+y.goto(0,0)
+z.goto(0,100)
+q.goto(0,100)
+x.pendown()
+y.pendown()
+z.pendown()
+q.pendown()
+x.rt(180)
+q.lt(180)
+a=1
+b=1
+c=1
+while True:
+    #d=colorsys.hsv_to_rgb(c,1,1)
+    #color=(d)
+    #c+=0.1
+    x.fd(a)
+    x.rt(b)
+    z.fd(a)
+    z.rt(b)
+    y.fd(a)
+    y.lt(b)
+    q.fd(a)
+    q.lt(b)
+    a+=1
+    b+=1
